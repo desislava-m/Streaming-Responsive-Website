@@ -1,0 +1,14 @@
+:root {
+    --white: #FFFFFF;
+    --dark: #131313;
+    --red: #FF4E4E;
+}
+
+
+body {
+    margin: 0;
+}
+
+.nav {
+    background-color: black;
+}
