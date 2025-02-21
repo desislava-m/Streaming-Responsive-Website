@@ -2,6 +2,7 @@
     --white: #FFFFFF;
     --dark: #131313;
     --red: #FF4E4E;
+    --dark-grey: #232323;
 
     color: var(--white);
 }
@@ -43,6 +44,7 @@ body {
 
   .content {
     width: 100%;
+    background-color: var(--dark-grey);
   }
 
 .header-container {
@@ -112,5 +114,9 @@ body {
 
 .fa-play {
     margin-right: 7.4px;
+}
+
+.movies {
+    
 }
 
