@@ -140,6 +140,19 @@ body {
     width: 100%;
 }
 
+.footer {
+    background-image: url(./images/footer-banner.png);
+    background-size: 100%;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    max-height: 386px;
+}
+
+.footer-text {
+    margin-left: 49px;
+}
 .email-form {
     display: flex;
     width: 100%;
@@ -189,7 +202,7 @@ body {
 .stay-connected {
     font-size: 18px;
     max-width: 562px; 
-    margin: 0 0 24px 0; 
+    margin: 0 0 76px 0; 
     font-family: 'Work Sans';
     font-size: 15px;
     font-weight: 300;
