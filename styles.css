@@ -53,6 +53,7 @@ body {
     flex-direction: column;
     background-size: cover;
     min-height: 554px;
+    margin-bottom: 81px;
 }
 
   .movie-name {
@@ -117,6 +118,23 @@ body {
 }
 
 .movies {
-    
+    font-family: 'Work Sans';
+    font-size: 20px;
+    margin: 0 50px;
+}
+
+.movies p {
+   margin-top: 0;
+   margin-bottom: 40px;
+}
+
+.movies-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: clamp(8px, 2vw, 18px)
+}
+
+.movies-grid img {
+    width: 100%;
 }
 
