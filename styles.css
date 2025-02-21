@@ -20,7 +20,7 @@ body {
 .vertical-nav {
     position: sticky; 
     background-color: var(--dark);
-    padding: 0 35px;
+    padding: 30px 35px;
     display: flex;
     flex-direction: column;
     align-items: center;
