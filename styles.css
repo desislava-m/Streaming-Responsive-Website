@@ -41,49 +41,76 @@ body {
     width: 18px;
   }
 
-  .header-container {
-    background-image: url(./images/hero-container.png);
-    background-repeat: no-repeat;
-    background-size: cover;  /* Ensures the image covers the full container */
-    background-position: center center;  /* Centers the image */
+  .content {
     width: 100%;
-    height: 100vh;  /* Full screen height */
-    display: flex;
-    flex-direction: column;  /* Stacks the text vertically */
-    justify-content: center;  /* Centers content vertically */
-    align-items: flex-start;  /* Aligns text to the left */
-    padding: 50px;
-    position: relative;
   }
 
-  .hero-container {
+.header-container {
+    background-image: url(./images/hero-container.png);
     display: flex;
-    flex-direction: column;  /* Ensures text is stacked vertically */
-    justify-content: center;
-    align-items: flex-start;
-    position: relative;
-    z-index: 1;
-  }
+    flex-direction: column;
+    background-size: cover;
+    min-height: 554px;
+}
 
   .movie-name {
     font-family: 'Anton', sans-serif;
+    font-weight: 500;
     text-transform: uppercase;
     font-size: 80px;
-    margin: 0 0 10px 0; /* Adds spacing below */
+    margin: 0 0 10px 0; 
 }
 
 .info {
     font-size: 20px;
-    margin: 0 0 20px 0; /* Adds spacing below */
+    margin: 0 0 20px 0;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 12px;
+    color: #747474;
 }
 
 .plot {
     font-size: 18px;
-    max-width: 500px; /* Limits width for better readability */
-    margin: 0 0 20px 0; /* Adds spacing below */
+    max-width: 500px; 
+    margin: 0 0 24px 0; 
+    font-family: 'Work Sans';
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 26px;
+    max-width: 386px;
 }
 
 .director-info {
-    font-size: 18px;
-    font-weight: bold;
+    font-family: 'Work Sans';
+    font-size: 12px;
+    
 }
+
+.cast {
+    font-family: 'Work Sans';
+    font-size: 12px;
+    margin-bottom: 49px;
+}
+
+.text {
+    margin-left: 45px;
+    margin-top: 25px;
+}
+
+.watch-now {
+    background-color: transparent;
+    color:#FF4E4E;
+    font-family: 'Work Sans';
+    font-weight: 300;
+    border: 0.5px solid var(--red);
+    border-radius: 40px;
+    padding: 17px 28px;
+    width: 155px;
+}
+
+.fa-play {
+    margin-right: 7.4px;
+}
+
