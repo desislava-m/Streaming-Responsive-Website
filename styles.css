@@ -30,7 +30,7 @@ body {
   .nav-logo img {
 
     margin-bottom: 38px;
-    width: 40px;
+    max-width: 40px;
 
   }
 
@@ -51,6 +51,7 @@ body {
 .header-container {
     background-image: url(./images/hero-container.png);
     display: flex;
+    background-position: center;
     flex-direction: column;
     background-size: cover;
     min-height: 554px;
@@ -76,8 +77,6 @@ body {
 }
 
 .plot {
-    font-size: 18px;
-    max-width: 500px; 
     margin: 0 0 24px 0; 
     font-family: 'Work Sans';
     font-size: 15px;
@@ -196,7 +195,7 @@ body {
     font-size: 40px;
     font-weight: 800;
     line-height: 25.3px;
-
+    margin-top: 83px
   }
 
 .stay-connected {
@@ -204,7 +203,96 @@ body {
     max-width: 562px; 
     margin: 0 0 76px 0; 
     font-family: 'Work Sans';
-    font-size: 15px;
     font-weight: 300;
     line-height: 26px;
+}
+
+
+@media (max-width: 768px) {
+
+    .movies-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: clamp(8px, 2vw, 18px)
+    }
+
+    h2 {
+        font-family: 'Work Sans';
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 25.3px;
+        margin-top: 37px;
+        margin-bottom: 16px;
+      }
+
+      .stay-connected {
+        font-size: 11px;
+        max-width: 371px; 
+        margin: 0 0 39px 0; 
+        font-family: 'Work Sans';
+        font-weight: 300;
+        line-height: 22px;
+    }
+    
+    .email-input{
+        max-width: 209px;
+    }
+    .email-input::placeholder {
+        font-size: 12px;
+      }
+
+    .submit-btn {
+      margin-left: 11px;
+    }
+
+    .movie-name {
+        font-size: 50px;
+    }
+
+    .info {
+        font-size: 10px;
+    }
+    
+    .plot {
+        font-size: 11px;
+        max-width: 283px; 
+        margin: 0 0 16px 0; 
+        line-height: 22px;
+    }
+    
+    .director-info {
+        font-family: 'Work Sans';
+        font-size: 10px;
+        
+    }
+    
+    .cast {
+        font-family: 'Work Sans';
+        font-size: 10px;
+        margin-bottom: 26px;
+    }
+
+    .watch-now {
+        background-color: transparent;
+        color:#FF4E4E;
+        font-family: 'Work Sans';
+        font-weight: 300;
+        font-size: 11px;
+        border: 0.5px solid var(--red);
+        border-radius: 40px;
+        padding: 15px 20px;
+        width: 117px;
+    }
+
+    .fa-play {
+        margin-right: 5.6px;
+    }
+
+    .vertical-nav {
+        padding: 19px 17px;
+    }
+
+    .footer-text {
+        margin-left: 33px;
+    }
 }
